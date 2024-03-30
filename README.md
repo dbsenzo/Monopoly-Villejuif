@@ -4,9 +4,9 @@
 
 The Monopoly Simulation Project is a Java-based application designed to simulate the well-known board game, Monopoly. Although Monopoly is not typically recognized for its excitement, it offers substantial educational value, particularly in implementing its rules in a software context. This project enables the exploration of various programming concepts such as threading and networking, making it an excellent tool for educational purposes.
 
-Originating in the early 20th century by Lizzie Magie, Monopoly was designed to demonstrate the issues surrounding land ownership accumulation. For those interested in the history of Monopoly, [this video on the origins of Monopoly](https://www.youtube.com/watch?v=example) is highly recommended.
+Originating in the early 20th century by Lizzie Magie, Monopoly was designed to demonstrate the issues surrounding land ownership accumulation. For those interested in the history of Monopoly, [this video on the origins of Monopoly](https://www.youtube.com/watch?v=dvHqVyxdWYU&ab_channel=TripleSGames) is highly recommended.
 
-![Monopoly](https://example.com/monopoly_image.jpg)
+![Monopoly](https://vignette.wikia.nocookie.net/monopoly/images/4/44/Bay-Monopoly-2.jpg/revision/latest?cb=20180808001004)
 
 ## 🎯 Objectives
 
