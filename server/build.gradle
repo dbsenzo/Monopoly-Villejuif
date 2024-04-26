@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":core")
+    testImplementation project(":core")
+    implementation project(":simulation")
+    testImplementation project(":simulation")
+    testImplementation platform('org.junit:junit-bom:5.9.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation "org.mockito:mockito-core:3.+"
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'fr.bouhamididesbois.efrei.monopoly.ApplicationServer'
+}
+
+run {
+    standardInput = System.in
+}
